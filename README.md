@@ -11,3 +11,7 @@ Este projeto tem como objetivo criar uma plataforma interativa de jogos educativ
 3. **Acessibilidade**: Garantir que a plataforma seja acessível e inclusiva.
 4. **Monitoramento de Desempenho**: Implementar ferramentas para acompanhar o progresso dos estudantes, oferecendo feedbacks personalizados.
 5. **Inovação Contínua**: Manter-se atualizado com as melhores práticas pedagógicas e tecnológicas, integrando novos jogos e funcionalidades com base no feedback da comunidade educacional.
+
+
+
+Link : https://aprendajogando.netlify.app/
