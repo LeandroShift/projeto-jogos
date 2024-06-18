@@ -1,4 +1,4 @@
-//selecionando todos os elementos necessários
+// selecionando todos os elementos necessários
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
@@ -68,9 +68,9 @@ quit_quiz.onclick = ()=>{
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
-// if Next Que button clicked
+// se o botão proximo for clicado !
 next_btn.onclick = ()=>{
-    if(que_count < questions.length - 1){ //   se a contagem de perguntas for menor que o comprimento total da pergunta
+    if(que_count < questions.length - 1){   // se a contagem de perguntas for menor que o comprimento total da pergunta
         que_count++; //   incrementar o valor que_count
         que_numb++; //   incrementar o valor que_numb
         showQuetions(que_count); //   chamando a função showQestions
@@ -81,6 +81,7 @@ next_btn.onclick = ()=>{
         startTimerLine(widthValue); //chamando a função startTimerLine
         timeText.textContent = "Time Left"; //altere o timeText para Tempo restante
         next_btn.classList.remove("show"); //ocultar o próximo botão
+    }else{
         clearInterval(counter); // limpar contador
         clearInterval(counterLine); // limpar counterLine
         showResult(); //chamando a função showResult
@@ -131,7 +132,7 @@ function optionSelected(answer){
         console.log("Wrong Answer");
 
         for(i=0; i < allOptions; i++){
-            if(option_list.children[i].textContent == correcAns){ //se houver uma opção que corresponda a uma resposta de array 
+            if(option_list.children[i].textContent == correcAns){      //se houver uma opção que corresponda a uma resposta de array 
                 option_list.children[i].setAttribute("class", "option correct"); //adicionando cor verde à opção correspondente
                 option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); //adicionando ícone de marca à opção correspondente
                 console.log("Auto selected correct answer.");
@@ -152,7 +153,7 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore == 10){ // se o usuário marcou mais de 3
         //criando uma nova tag span e passando o número da pontuação do usuário e o número total da pergunta
-        let scoreTag = '<span>Parabéns! 🎉, Você acertou todas!! <p>';
+        let scoreTag = '<span> Parabéns! 🎉, Você acertou todas!! <p>';
         scoreText.innerHTML = scoreTag;  //adicionando nova tag span dentro de score_Text
     }
     else if(userScore > 0){ // se o usuário marcou mais de 1

@@ -65,7 +65,7 @@ const winGame = () => {
     startArea.style.display = "block";
     modal.style.display = "block";
     modalContent.classList.add("modal-correct");
-    modalText.innerHTML = `<br><center>Parabéns! 🎉, Você venceu!!!!`;
+    modalText.innerHTML = `<br><center>Parabéns! 🎉, Você acertou todas!!!!`;
     
 }
 

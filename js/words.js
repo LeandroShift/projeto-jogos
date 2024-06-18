@@ -57,7 +57,7 @@ let words = [
     },
     {
         word: "Livro",
-        hint: "Large shop where goods are traded"
+        hint: "Aonde tem varias historias"
     },
     {
         word: "Campo",
