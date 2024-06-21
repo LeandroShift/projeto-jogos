@@ -970,9 +970,9 @@ li {
     }
 
     .box-avalie .btn {
-        font-size: 1.9vw;
+        font-size: 3.9vw;
         /* Tamanho de fonte responsivo */
-        padding: 0.5vw 1vw;
+        padding: 0.5vw 3vw;
         font-weight: 800;
         background: linear-gradient(to right, #afacac, #000000);
         color: aliceblue;
@@ -991,7 +991,7 @@ li {
         align-items: center;
         margin-left: 10%;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
-        margin-top: -90%;
+        margin-top: -122%;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
         background: rgba(0, 0, 0, 0.9);
         color: #fff;
@@ -1085,7 +1085,7 @@ li {
         align-items: center;
         margin-left: 10%;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
-        margin-top: -128%;
+        margin-top: -161%;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
         background: rgba(0, 0, 0, 0.9);
         color: #fff;
@@ -1110,9 +1110,9 @@ li {
         color: #00ff00;
         font-size: 21vw;
         /* Tamanho de fonte responsivo */
-        margin-top: 3vw;
+        margin-top: 5vw;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
-        margin-left: 31vw;
+        margin-left: 28vw;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
         cursor: pointer;
     }
@@ -1124,7 +1124,7 @@ li {
         /* Tamanho de fonte responsivo */
         margin-top: -45vw;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
-        margin-left: 15vw;
+        margin-left: 19vw;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
         text-align: center;
     }
@@ -1136,7 +1136,7 @@ li {
         /* Tamanho de fonte responsivo */
         margin-top: -5vw;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
-        margin-left: 25vw;
+        margin-left: 9vw;
         /* Ajustar conforme necessário para diferentes tamanhos de tela */
         text-align: center;
     }
