@@ -872,6 +872,23 @@ li {
 
 }
 
+
+@media only screen and (min-width: 1400px) {
+    .rate-section{
+        margin-left: 26rem;
+        margin-top: -34rem;
+    }
+    .sucess-popup{
+        margin-left: 26rem;
+        margin-top: -43rem;
+    }
+
+
+}
+
+
+
+
 @media only screen and (min-width: 200px) and (max-width: 500px) {
     * {
         margin: 0;

@@ -56,7 +56,7 @@ restart_quiz.onclick = ()=>{
     clearInterval(counterLine); //limpar contadorLine
     startTimer(timeValue); // chamando a função startTimer
     startTimerLine(widthValue); //  chamando a função startTimerLine
-    timeText.textContent = "Time Left"; //  altere o texto de timeText para Time Left
+    timeText.textContent = "Tempo"; //  altere o texto de timeText para Time Left
     next_btn.classList.remove("show"); //  ocultar o próximo botão
 }
 
@@ -79,7 +79,7 @@ next_btn.onclick = ()=>{
         clearInterval(counterLine); //limpar contadorLine
         startTimer(timeValue); // chamando a função startTimer
         startTimerLine(widthValue); //chamando a função startTimerLine
-        timeText.textContent = "Time Left"; //altere o timeText para Tempo restante
+        timeText.textContent = "Tempo"; //altere o timeText para Tempo restante
         next_btn.classList.remove("show"); //ocultar o próximo botão
     }else{
         clearInterval(counter); // limpar contador
@@ -177,7 +177,7 @@ function startTimer(time){
         }
         if(time < 0){ //se o temporizador for menor que 0
             clearInterval(counter); //limpar counter
-            timeText.textContent = "Time Off"; //altere o texto da hora intervalo
+            timeText.textContent = "Tempo Acabou"; //altere o texto da hora intervalo
             const allOptions = option_list.children.length; //obtendo todos os itens de opção
             let correcAns = questions[que_count].answer; //obtendo a resposta correta do array
             for(i=0; i < allOptions; i++){
@@ -208,6 +208,6 @@ function startTimerLine(time){
 
 function queCounter(index){
     //criando uma nova tag span e passando o número da pergunta e o total da pergunta
-    let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
+    let totalQueCounTag = '<span><p>'+ index +'</p> de <p>'+ questions.length +'</p> Questões</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adicionando nova tag span dentro de bottom_ques_counter
 }
