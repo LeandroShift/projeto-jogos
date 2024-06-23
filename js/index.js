@@ -41,7 +41,7 @@ submit.addEventListener('click', ()=>{
 
 checkboxes.forEach(checkbox => {
     checkbox.addEventListener('change', function() {
-      // Uncheck all other checkboxes
+      // Desmarque todos os outros checkboxes
       checkboxes.forEach(cb => {
         if (cb !== this) {
           cb.checked = false;
@@ -75,7 +75,7 @@ checkboxes.forEach(checkbox => {
     });
 
     alert('Dados selecionados: ' + feedbackSelecionado.join(', '));
-    // Aqui você pode fazer algo com os dados selecionados, como enviar via AJAX.
+    // Aqui você pode fazer algo com os dados selecionados, como enviar via AJAX..
   }
 
 

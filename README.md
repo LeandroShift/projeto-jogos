@@ -1,4 +1,4 @@
-# PROJETO - Atividade Extensionista I: Tecnologia Aplicada à Inclusão Digital
+# PROJETO DA FACULDADE - Atividade Extensionista I: Tecnologia Aplicada à Inclusão Digital
 
 ### Bem-vindo ao Projeto de Aplicação Web de Jogos para Estimular o Aprendizado na Área da Educação!
 
